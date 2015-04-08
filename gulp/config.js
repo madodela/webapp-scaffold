@@ -50,7 +50,7 @@ module.exports = {
       baseDir: [temp, src]
     },
     files: [
-      dest + "/**",
+      temp + "/**",
       // Exclude Map files
       "!" + temp + "/**.map"
     ]
