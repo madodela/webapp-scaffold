@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/artamigo/gulp-angular-browserify-sass/issues"
   },
-  "homepage": "https://github.com/artamigo/gulp-angular-browserify-sass"
+  "homepage": "https://github.com/artamigo/gulp-angular-browserify-sass",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-changed": "^1.2.1",
+    "gulp-imagemin": "^2.2.1",
+    "require-dir": "^0.3.0"
+  }
 }
