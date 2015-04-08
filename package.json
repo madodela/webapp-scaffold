@@ -1,0 +1,22 @@
+{
+  "name": "gulp-angular-browserify-sass",
+  "version": "1.0.0",
+  "description": "Basic gulp compiler for angular+browserify+sass",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artamigo/gulp-angular-browserify-sass.git"
+  },
+  "keywords": [
+    "gulp",
+    "angular",
+    "browserify",
+    "sass",
+    "compiler"
+  ],
+  "author": "Armando Altamira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artamigo/gulp-angular-browserify-sass/issues"
+  },
+  "homepage": "https://github.com/artamigo/gulp-angular-browserify-sass"
+}
