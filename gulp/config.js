@@ -11,7 +11,7 @@ module.exports = {
 
   styles: {
     src: src + "/**/*.{sass,scss}",
-    dest: dest ,
+    dest: temp,
     settings: {
       // Required if you want to use SASS syntax
       // See https://github.com/dlmanning/gulp-sass/issues/81
@@ -26,7 +26,7 @@ module.exports = {
 
   index: {
     src: src + "/index.html",
-    dest: dest
+    dest: temp
   },
 
   browserify: {
@@ -38,7 +38,7 @@ module.exports = {
     // bundle config in the list below
     bundleConfigs: [{
       entries: src + '/scripts/main.js',
-      dest: dest + '/scripts',
+      dest: temp + '/scripts',
       outputName: 'main.js'
     }]
   },
@@ -47,17 +47,17 @@ module.exports = {
     server: {
       // We're serving the src folder as well
       // for sass sourcemap linking
-      baseDir: [dest, src]
+      baseDir: [temp, src]
     },
     files: [
       dest + "/**",
       // Exclude Map files
-      "!" + dest + "/**.map"
+      "!" + temp + "/**.map"
     ]
   },
 
   assets: {
     src: src + "/assets/**",
-    dest: dest + "/assets"
+    dest: temp + "/assets"
   },
 };
