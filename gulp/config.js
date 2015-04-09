@@ -30,7 +30,7 @@ module.exports = {
   },
 
   browserify: {
-     // Enable source maps
+    // Enable source maps
     debug: false,
     // Additional file extentions to make optional
     extensions: ['.js'],
