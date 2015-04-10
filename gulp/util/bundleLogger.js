@@ -1,4 +1,4 @@
-var gutil        = require('gulp-util');
+var gutil = require('gulp-util');
 var prettyHrtime = require('pretty-hrtime');
 var startTime;
 
