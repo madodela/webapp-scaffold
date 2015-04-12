@@ -1,6 +1,6 @@
 # Webapp Scaffold
 
-Basic gulp task to start a medium size web application
+Basic gulp tasks to start a medium size web application
 
 ## Content
 * Images optimization
