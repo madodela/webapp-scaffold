@@ -21,7 +21,7 @@ module.exports = {
   },
 
   templates: {
-    src: src + "/scripts/*.html",
+    src: src + "*.html",
   },
 
   index: {
