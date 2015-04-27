@@ -8,7 +8,7 @@ gulp.task('browserSync', ['build'], function() {
 
   config.server.middleware = [
     modRewrite([
-      '!\\.html|\\.js|\\.svg|\\.css|\\.png$ /index.html [L]'
+      '!\\.html|\\.otf|\\.js|\\.svg|\\.css|\\.png$ /index.html [L]'
     ]),
   ];
 
